@@ -1,0 +1,952 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 40px;
+    color: white;
+}
+
+#header .left {
+    display: flex;
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+
+#header .left i {
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+#header .left span {
+    margin-left: 5px;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+#header .left h1 {
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+#header .left h2 {
+    margin-left: 15px;
+    font-size: 14px;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+#header .left .fb {
+    display: flex;
+    margin-left: 10px;
+}
+
+#header .left .fb h3 {
+    margin-left: 7px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#header .right {
+    position: absolute;
+    top: 8px;
+    right: 120px;
+    display: flex;
+}
+
+#header .right i {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+#header .right span {
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+#header::before {
+    content: " ";
+    position: absolute;
+    background: url('./1\ -\ Copy.jpg')no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+/*Hotel logo pic here  */
+#logopic img {
+    width: 180px;
+    margin-top: 80px;
+    margin-left: 550px;
+}
+
+
+/* header 1 section start here  */
+#header1{
+    display: flex;
+    margin-bottom: 30px;
+}
+#header1 .main{
+     display: flex;
+    color: black;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+#header1 .main li{
+    display: flex;
+    text-decoration: none;
+    border-right: 1px solid black;
+}
+#header1 .main li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+}
+#header1 .main li a button{
+    background-color: #715d55 !important;
+   border:  1px solid #715d55 ;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+/* CHALET SECTION START HERE */
+#chalet {
+    position: absolute;
+    z-index: 1;
+    margin-top: 660px;
+    margin-left: 60px;
+    color: white;
+}
+#chalet h1{
+    font-size: 90px;
+}
+#chalet p{
+    font-size: 30px;
+   
+}
+
+/* post sections start here */
+#post{
+    display: flex;
+   /* border: 2px solid green;  */
+}
+#post #po{
+   /* border: 1px solid red;  */
+}
+#post #po h1{
+  font-size: 24px;
+}
+#post .a{
+    background-color: rgb(120, 99, 90);
+    margin-left: 50px;
+    width: 250px;
+    padding: 30px 20px;
+    color: white;
+}
+#post .a p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+#post .a button{
+    margin-top: 15px;
+    padding: 5px 25px;
+    background-color:#002d8000;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+}
+
+#post .b{
+    background-color: #52433d!important;
+   color: white;
+    width: 250px;
+    padding: 30px 20px;
+}
+#post .b p{
+    margin-top: 25px;
+    font-size: 18px;
+}
+#post .b span{
+    margin-left: 25px;
+}
+
+#post .c{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+    height: 80px;
+}
+#post .c .j{
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+#post .c .j #king{
+    display: flex;
+}
+#post .c .j #king .y span{
+    font-size: 45px;
+}
+#post .c .j #king .z h2{
+  font-size: 18px;
+}
+#post .c .j #king .z{
+    text-align: center;
+    display: block;
+    margin-top: 7px;
+    margin-left: 8px;
+    font-size: 15px;
+}
+#post .c .j #king .z i{
+    font-size: 20px;
+}
+
+#post .c .k{
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid black;
+}
+#post .c .k #king{
+    display: flex;
+}
+#post .c .k #king .y span{
+    font-size: 45px;
+}
+#post .c .k #king .z h2{
+  font-size: 18px;
+}
+#post .c .k #king .z{
+    text-align: center;
+    display: block;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 15px;
+}
+#post .c .k #king .z i{
+    font-size: 20px;
+}
+#post .c .l{
+    margin-left: 20px;
+}
+
+#post .d{
+    margin-top: 36px ;
+    margin-left: 40px;
+    width: 150px;
+    height: 140px;
+    text-align: center;
+    color: white;
+   
+   
+}
+#post .d h1{
+    margin-top: 40px;
+    font-size: 20px;
+}
+#post .d h2{
+    font-size: 20px;
+}
+#post .d::before{
+    content: " ";
+    position:absolute;
+    background: url('./6.jpg')no-repeat center center/cover;
+    width: 152px;
+    height: 142px;
+    top: 1172px;
+    left: 1078px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+/* LUXURY SECTION START HERE */
+#luxury{
+    margin-top: 70px;
+    text-align: center;
+}
+#luxury h1{
+    font-size: 15px;
+    color: #a0a0a0;
+}
+
+/* Room section start here */
+
+#room h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 60px;
+    color: #656464;
+}
+#room .vip{
+   /*  border: 2px solid greenyellow;  */
+    padding: 20px 40px;
+    display: flex;
+}
+#room .vip #ali{
+   /*   border: 2px solid red;   */
+}
+
+#room .vip .a .rome{
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    color:white;
+    margin-top: 300px;
+}
+#room .vip .a .rome h1{
+    font-size: 18px;
+    color:white;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+#room .vip .a .rome i{
+    font-size: 18px;
+    margin-top: 30px;
+}
+#room .vip .a img{
+    width: 555px;
+}
+#room .vip .a h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: rgb(77, 77, 77);
+}
+#room .vip .a .guest{
+    display: flex;
+    margin-top: 30px;
+}
+#room .vip .a .guest .a{
+  display: flex;
+  margin-left: 30px;
+}
+#room .vip .a .guest .a h3{
+    margin-top: 3px;
+    margin-left: 4px;
+    color: rgb(77, 77, 77);
+}
+#room .vip .a .guest .a i{
+    font-size: 30px;
+}
+#room .vip .a p{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+#room .vip .a button{
+    padding: 12px 35px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+    background-color: #52433d;
+    border: 1px solid #52433d ;
+}
+#room .vip .a .guest .b{
+  display: flex;
+}
+#room .vip .a .guest .b h3{
+    margin-top: 3px;
+    margin-left: 4px; 
+    color: rgb(77, 77, 77);
+}
+
+#room .vip .a .guest .b img{
+    width: 30px;
+}
+
+
+
+#room .vip .b{
+    margin-left: 30px;
+    display: block;
+}
+#room .vip .b img{
+    width: 300px;
+}
+#room .vip .b .family{
+    position: absolute;
+    z-index: 1;
+    margin-top: 240px;
+    display: flex;
+}
+#room .vip .b .family h1{
+  font-size: 17px;
+  margin-left: 30px;
+  color:white;
+}
+#room .vip .b .family button{
+    padding: 3px 10px;
+    margin-left: 20px;
+    margin-top: 27px;
+    color: white;
+    background-color: #52433d;
+    border: 1px solid #52433d ;
+}
+#room .vip .b .luxuryroom {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 280px;
+    margin-left: 30px;
+}
+#room .vip .b .luxuryroom h1{
+    font-size: 18px ;
+   color: white;
+}
+#room .vip .b .luxuryroom button{
+    padding: 3px 10px;
+    margin-left: 20px;
+    margin-top: 27px;
+    color: white;
+    background-color: #52433d;
+    border: 1px solid #52433d ;
+}
+
+#room .vip .c{
+    margin-left: 30px;
+}
+#room .vip .c img{
+    width: 300px;
+}
+#room .vip .c .family{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin-top: 240px;
+    margin-left: 30px;
+   
+}
+#room .vip .c .family h1{
+   font-size: 18px;
+   color: white;
+}
+#room .vip .c .family button{
+    padding: 3px 10px;
+    margin-left: 20px;
+    margin-top: 27px;
+    color: white;
+    background-color: #52433d;
+    border: 1px solid #52433d ;
+}
+#room .vip .c .luxuryroom {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 280px;
+    margin-left: 30px;
+}
+#room .vip .c .luxuryroom h1{
+    font-size: 18px ;
+   color: white;
+}
+#room .vip .c .luxuryroom button{
+    padding: 3px 10px;
+    margin-left: 20px;
+    margin-top: 27px;
+    color: white;
+    background-color: #52433d;
+    border: 1px solid #52433d ;
+}
+
+
+/* NEW OPENING SECTION START HERE */
+
+#newopening{
+    display: flex;
+    padding: 0px 40px;
+    margin-top: 70px;
+}
+#newopening .a{
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: 170px;
+}
+#newopening .a p{
+    font-size: 20px;
+}
+#newopening .a  h1{
+    font-size: 60px;
+}
+
+
+#newopening .days{
+    display: flex;
+}
+#newopening .a .days {
+ margin-top: 50px;
+}
+#newopening .a .days .c{
+    margin-left: 40px;
+}
+#newopening .a .days .d,.e,.f{
+    margin-left: 60px;
+}
+#newopening .a .days button{
+     padding: 4px 10px;
+     background-color: white;
+     border: 1px solid white;
+}
+#newopening .b{
+    width: 100%;
+    padding: 30px 40px;
+    padding-left:120px;
+    padding-right: 70px;
+}
+#newopening .b .bro{
+    background-color: #f1f1f1;
+height: 80px;
+top: 0px;
+padding-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#newopening .b .bro button{
+    padding: 2px 5px;
+    background-color: #52433d;
+    border: 1px solid #52433d ;
+    color: white;
+}
+#newopening .b .bro h1{
+    margin-top: 10px;
+}
+#newopening .b .name{
+    margin-top: 20px;
+}
+#newopening .b .booknow{
+    border: 1px solid black;
+    background-color:white;
+}
+#newopening .b label,input,textarea{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#newopening .b label{
+    font-size: 18px;
+}
+#newopening .b input,textarea{
+    margin-top: 8px;
+    padding: 4px 80px;
+    background-color:#f1f1f1 ;
+    border: 1px solid rgb(223, 222, 222);
+}
+#newopening .b textarea{
+    padding: 4px 53px;
+}
+#newopening .b .btn{
+    margin-top: 20px;
+    padding: 9px 128px;
+    margin-bottom: 40px;
+    margin-left: 51px;
+    background-color: #52433d;
+    border: 1px solid #52433d ;
+    color: white;
+}
+
+#newopening ::before{
+    content: " ";
+    position: absolute;
+    background: url('./11.jpg')no-repeat center center/cover;
+    left: 0px;
+    top: 2260px;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+/* cycle section start here */
+#cycle{
+    padding: 0px 40px;
+    margin-top: 100px;
+    display: flex;
+    color: #727475;
+}
+#cycle .a{
+    display: flex;
+}
+#cycle .a img{
+    margin-top: 5px;
+    width: 50px;
+    height: 60px;
+}
+#cycle .a .p{
+    
+    padding: 0px 20px;
+}
+#cycle .a .p h1{
+    font-size: 30px;
+}
+#cycle .a .p p{
+    font-size: 18px;
+}
+
+#cycle .b{
+    display: flex;
+}
+#cycle .b img{
+    margin-top: 5px;
+    width: 50px;
+    height: 60px;
+}
+#cycle .b .p{
+    
+    padding: 0px 20px;
+}
+#cycle .b .p h1{
+    font-size: 30px;
+}
+#cycle .b .p p{
+    font-size: 18px;
+}
+
+#cycle .c{
+    display: flex;
+}
+#cycle .c img{
+    margin-top: 5px;
+    width: 50px;
+    height: 60px;
+}
+#cycle .c .p{
+    
+    padding: 0px 20px;
+}
+#cycle .c .p h1{
+    font-size: 30px;
+}
+#cycle .c .p p{
+    font-size: 18px;
+}
+
+/* Blog section start here */
+.blog{
+    margin-top: 70px;
+    text-align: center;
+}
+.blog h1{
+    font-size: 15px;
+    color: #727475;
+}
+
+/* news section start here */
+#news{
+    padding: 0px 40px ;
+}
+#news .news{
+    margin-top: 50px;
+}
+#news h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+#news .news {
+    display: flex;
+}
+#news .news .a{
+    width:30%;
+}
+#news .news .a .d{
+    border: 1px solid #e7e1db ;
+
+}
+#news .news .a .d img{
+    width: 368px;
+}
+#news .news .a .d p{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+#news .news .a .d h2{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 40px;
+}
+#news .news .a .d button{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px 20px;
+    background-color: white;
+    font-weight: 900;
+
+    color: #52433d;
+    border: 2px solid #52433d ;
+    margin-bottom: 30px;
+}
+
+#news .news .a .e{
+    margin-top: 30px;
+    background-color: #78635a;
+    text-align: center;
+    margin-left: 0px;
+    padding: 40px 60px;
+    color: white;
+}
+#news .news .a .e i{
+    font-size: 40px;
+}
+#news .news .a .e h3{
+    font-size: 40px;
+}
+
+#news .news .b{
+    width: 41%;
+    margin-left: 30px;
+}
+#news .news .b .f{
+    margin-left: 0px;
+    text-align: center;
+    background-color: #78635a;
+    color:  white;
+}
+#news .news .b .f .g{
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 130px;
+}
+#news .news .b .f .g i{
+    font-size: 30px;
+}
+#news .news .b .f .g p{
+   font-size: 20px;
+   margin-top: 4px;
+   margin-left: 5px;
+   text-align: center;
+   
+}
+
+#news .news .b .f h2{
+    font-size: 30px;
+    padding-top: 30px;
+    padding: 30px 40px;
+}
+#news .news .b img{
+    width: 360px;
+   
+}
+#news .news .b .h{
+    margin-top: 40px;
+    border: 1px solid #e7e1db ;
+}
+#news .news .b .h p{
+     margin-top: 30px;
+     margin-left: 30px;
+     font-size: 18px;
+}
+#news .news .b .h h3{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#news .news .b .h button{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight:900;
+    padding: 10px 20px;
+    background-color: white;
+    color: #52433d;
+    border: 2px solid #52433d ;
+    margin-bottom: 30px;
+}
+
+
+#news .news .c{
+    margin-left: 40px;
+}
+#news .news .c img{
+    width: 400px;
+    opacity: 0.9;
+    color: black;
+}
+#news .news .c .img{
+    margin-top: 30px;
+}
+#news .news .c .d {
+    position: absolute;
+    z-index: 1;
+    margin-top: 330px;
+    margin-left: 30px;
+    color:white;
+    font-weight: lighter;
+}
+#news .news .c .d h1{
+    font-size: 35px;
+}
+#news .news .c .d .e{
+    display: flex;
+}
+#news .news .c .d .e i{
+   font-size: 20px;
+}
+#news .news .c .d .e p{
+    margin-top: 2px;
+    margin-left: -60px;
+}
+
+
+#news .news .c .f {
+    position: absolute;
+    z-index: 1;
+    margin-top: 220px;
+    margin-left: 30px;
+    color:white;
+    font-weight: lighter;
+
+}
+#news .news .c .f p{
+    margin-left: 0px;
+}
+#news .news .c .f h1{
+    font-size: 35px;
+}
+#news .news .c .f .g{
+    display: flex;
+}
+#news .news .c .f .g i{
+   font-size: 20px;
+}
+#news .news .c .f .g .p{
+    margin-top: 5px;
+}
+
+
+/* wordpress section start here */
+
+#wordpres{
+    display: flex;
+    margin-top: 110px;
+    padding: 0px 40px;
+}
+#wordpres img{
+    width: 200px;
+}
+#wordpres::before{
+    content: " ";
+    position: absolute;
+    background: url('./25.jpg')no-repeat center center/cover;
+   left: 0px;
+   top:4393px;
+   width: 100%;
+   height: 25%;
+z-index: -1;
+opacity: 0.9;
+}
+
+/* phone sections start here */
+#phone{
+    display: flex;
+    margin-top: 80px;
+    padding: 0px 60px;
+    color: white;
+}
+#phone .a p{
+    margin-top: 10px;
+}
+#phone .a h2{
+    margin-top: 30px;
+}
+#phone .b{
+    margin-left: 200px;
+}
+#phone .b p{
+    margin-top: 10px;
+}
+#phone .b .f i{
+    margin-top:15px;
+    font-size: 25px;
+    margin-left: 7px;
+    color:white;
+    
+}
+#phone .c{
+    margin-left: 200px;
+}
+#phone .c p{
+    margin-top: 10px;
+}
+#phone .c  .d input{
+    margin-left: 0px;
+    margin-top: 15px;
+    padding: 7px 20px;
+    font-size: 18px;
+}
+#phone .c  .d  button{
+    margin-left: -5px;
+    margin-top: 15px;
+    padding: 7px 15px;
+    font-size: 18px;
+    background-color:#493c36 ;
+    color: white;
+    border: 1px solid #493c36 ;
+}
+
+#phone ::before{
+    content: " ";
+    position: absolute;
+   background: #78635a;
+   top: 4550px;
+    left: 0px;
+    width: 100%;
+    height: 30%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+/* foot sections start here */
+#foot{
+    display: flex;
+    margin-top: 0px;
+}
+#foot .a{
+    margin-top: 40px;
+}
+#foot ul{
+    display: flex;
+    margin-left: 20px;
+}
+#foot ul li{
+    text-decoration:none;
+    padding: 0px 20px;
+    display: flex;
+}
+#foot .b{
+    position: absolute;
+    right: 30px;
+    
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    color: blue;
+    font-weight: bolder;
+}
+#new{
+    display: none;
+    position: absolute;
+    top: 500px;
+    right: 0px;
+    margin-left: 0px;
+}
+
+

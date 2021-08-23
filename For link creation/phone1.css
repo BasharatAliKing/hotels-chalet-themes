@@ -1,0 +1,294 @@
+
+
+#header .left {
+    
+    left: 50px;
+    top: 10px;
+}
+#header .left span{
+    display: none;
+}
+
+
+#header .right {
+   
+    top: 35px;
+    left: 70px;
+
+}
+#header .right span {
+    display: flex;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+#header::before {
+  
+    height: 60px;
+   
+}
+#logopic img {
+    width: 180px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+#header1{
+    display: none;
+}
+
+#chalet {
+    margin-top: 180px;
+    margin-left: 30px;
+}
+#chalet h1{
+    font-size: 30px;
+}
+#chalet p{
+    font-size: 13px;
+}
+#post{
+    display: inline;
+   /* border: 2px solid green;  */
+}
+
+
+#post #po h1{
+  font-size: 24px;
+}
+#post .a{
+    margin-left: 40px;
+  
+}
+
+#post .b{
+    margin-left: 40px;
+   
+}
+
+
+#post .c{
+    display: inline;
+}
+#post .c .j{
+   margin-left: 120px;
+    border-right:none;
+}
+
+
+
+
+#post .c .j #king .z i{
+    font-size: 20px;
+}
+
+#post .c .k{
+   margin-top: 40px;
+    padding-left: 120px;
+    border-right:none;
+}
+
+#post .c .l{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+#post .d{
+    margin-top: 80px ;
+    margin-left: 90px;
+   
+   
+   
+}
+#post .d h1{
+    margin-top: 40px;
+    font-size: 20px;
+}
+#post .d h2{
+    font-size: 20px;
+}
+#post .d::before{
+    top: 1155px;
+    left: 90px;
+}
+/* Room section start here */
+
+#room h1{
+    font-size: 50px;
+}
+#room .vip{
+    display: inline;
+}
+
+#room .vip .a img{
+    width: 360px;
+}
+
+#room .vip .c{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+/* NEW OPENING SECTION START HERE */
+
+#newopening{
+    display: inline;
+}
+#newopening .days{
+    display: inline;
+}
+
+#newopening .a .days .d,.e,.f{
+    margin-left: 30px;
+}
+
+#newopening .b{
+    padding-left:0px;
+}
+#newopening .b input,textarea{
+       padding: 4px 60px;
+}
+#newopening .b label,input,textarea{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#newopening .b textarea{
+    padding: 4px 33px;
+}
+#newopening .b .btn{
+    padding: 9px 108px;
+    margin-left: 11px;
+}
+
+
+#newopening ::before{
+    top: 3460px;
+    height: 210%;
+}
+
+/* cycle section start here */
+#cycle{
+    margin-left: 50px;
+    margin-top: 300px;
+    display: inline;
+}
+#cycle .a{
+    margin-top: 150px;
+}
+/* news section start here */
+#news{
+    padding: 0px 0px ;
+}
+
+#news .news {
+    display: inline;
+}
+#news .news .a{
+    width:100%;
+}
+#news .news .a .d img{
+    width: 360px;
+}
+
+#news .news .b{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+
+#news .news .c{
+    margin-top: 40px;
+    margin-left: 0px;
+}
+#news .news .c img{
+    width: 355px;
+}
+
+#news .news .c .d {
+   
+    margin-top: 280px;
+    margin-left: 30px;
+}
+
+#news .news .c .d .e p{
+    margin-left: -30px;
+}
+#news .news .c .f {
+     margin-top: 180px;
+}
+
+/* wordpress section start here */
+
+#wordpres{
+    display: inline;
+    margin-top: 270px;
+    padding: 0px 40px;
+}
+#wordpres .img{
+    margin-top: 120px;
+}
+#wordpres img{
+    width: 250px;
+    margin-left: 60px;
+}
+#wordpres::before{
+   top:8150px;
+  height: 80%;
+}
+
+
+/* phone sections start here */
+#phone{
+    display: inline;
+}
+#phone .a{
+    margin-top: 90px;
+    text-align: center;
+}
+
+#phone .b{
+    margin-left: 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#phone .c{
+    margin-left: 0px;
+    text-align: center;
+}
+#phone ::before{
+   top: 8650px;
+    height: 65%;
+}
+
+/* foot sections start here */
+#foot{
+    display: inline;
+    margin-top: 0px;
+}
+#foot .a{
+    margin-top: 40px;
+}
+#foot ul{
+    display: flex;
+    margin-left: 0px;
+}
+#foot ul li{
+    text-decoration:none;
+    padding: 0px 10px;
+    display: flex;
+}
+#foot .b{
+    position: none;
+    right: 0px;
+}
+#foot .b img{
+    width: 300px;
+    margin-left: 0px;
+}
+
+footer{
+    margin-top: 55px;
+   
+}
